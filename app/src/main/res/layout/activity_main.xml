@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/User"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:hint="UserName"
+        android:layout_marginTop="15dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginTop="15dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+
+        android:hint= "Enter your Password"/>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Sign in"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:layout_width="346dp"
+        android:layout_height="208dp"
+        android:src="@drawable/logo" />
+
+
+</LinearLayout>

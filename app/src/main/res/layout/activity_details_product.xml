@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsProduct">
+
+    <ImageView
+        android:id="@+id/imgpr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stm" />
+
+    <EditText
+        android:id="@+id/nompro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/refpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"
+        android:hint="Ref" />
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"
+        android:hint="Details" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+         <Button
+            android:id="@+id/dlt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

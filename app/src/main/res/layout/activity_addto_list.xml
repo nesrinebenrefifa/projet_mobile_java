@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddtoList">
+
+    <EditText
+        android:id="@+id/namenewPr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"
+        android:hint="Name New Product" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stm" />
+
+    <Button
+        android:id="@+id/changeImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Change Photo" />
+
+    <EditText
+        android:id="@+id/detailsnewPr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"
+        android:hint="Details New Product" />
+
+    <Button
+        android:id="@+id/addnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add" />
+</LinearLayout>

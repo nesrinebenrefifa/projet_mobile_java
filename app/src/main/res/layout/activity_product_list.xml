@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductList">
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:background="@drawable/edittext_bg"
+        android:inputType="text"
+        android:hint="Search" />
+
+    <ListView
+        android:id="@+id/products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
